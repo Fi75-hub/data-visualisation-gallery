@@ -1,0 +1,17 @@
+# Operating-system and editor files
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
+
+# Local dependencies, logs and environment files
+node_modules/
+*.log
+.env
+.env.*
+!.env.example
+
+# Local caches
+__pycache__/
+*.py[cod]

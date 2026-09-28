@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ITP 2 — Visual Gallery</title>
+
+    <!-- Libraries -->
+    <script src="lib/p5.min.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar">
+        <div class="brand">
+          <div class="brand-top">
+            <h2>ITP 2 — Visual Gallery</h2>
+            <p>Navigate with ← →</p>
+          </div>
+          <div class="search-wrap">
+            <input id="menu-search" type="search" placeholder="Search visuals..." aria-label="Search visuals" />
+          </div>
+        
+        </div>
+        <ul id="visuals-menu" class="sidebar-menu"></ul>
+      </aside>
+
+      <main class="content">
+        <div id="app" class="content-inner">
+          <!-- p5 canvas mounts here -->
+        </div>
+      </main>
+    </div>
+
+    <!-- Scripts at end for performance -->
+    <!-- Main sketch file -->
+    <script src="sketch.js"></script>
+
+    <!-- Helper and gallery -->
+    <script src="helper-functions.js"></script>
+    <script src="gallery.js"></script>
+    <script src="co2-line-graph.js"></script>
+    <script src="student-skill-radar.js"></script>
+    <script src="internet-lollipop-chart.js"></script>
+    <script src="pie-chart.js"></script>
+    <script src="streamgraph-chart.js"></script>
+    <script src="heartbeat-chart.js"></script>
+    <script src="tech-diversity-race.js"></script>
+    <script src="tech-diversity-gender.js"></script>
+    <script src="pay-gap-1997-2017.js"></script>
+    <script src="pay-gap-by-job-2017.js"></script>
+    <script src="waste-bar-chart.js"></script>
+    <script src="study-scatter-plot.js"></script>
+    <script src="climate-change.js"></script>
+  </body>
+</html>
