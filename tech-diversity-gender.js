@@ -48,7 +48,10 @@ function TechDiversityGender() {
     this._buildLabelLayer();
   };
 
-  this.destroy = function () {};
+  this.destroy = function () {
+    if (this.labelLayer) this.labelLayer.remove();
+    this.labelLayer = null;
+  };
 
   //  helpers 
   this._mapPercentToWidth = function (percent) {
@@ -76,6 +79,7 @@ function TechDiversityGender() {
 
     const w = this.layout.leftMargin - 16; // space for labels
     const h = height;
+    if (this.labelLayer) this.labelLayer.remove();
     this.labelLayer = createGraphics(max(1, w), max(1, h));
 
     const g = this.labelLayer;

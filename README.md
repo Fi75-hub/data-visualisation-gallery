@@ -55,9 +55,9 @@ The p5.js library is included in `lib/`. No npm installation or external API key
 
 Developed by Faizan Ilyas for the University of London **Introduction to Programming II (CM1010)** final coursework.
 
-The project extends the course's **Data Visualisation** case-study template. Its original five visualisation topics cover technology workforce diversity, pay gaps and climate change. This version also includes waste, CO₂, study-score, internet-use, student-skill, heart-rate and device-use charts, together with a searchable gallery and additional interactions. The course scaffold and original datasets are acknowledged; the entire application is not presented as work created from a blank starting point.
+The project extends the course's **Data Visualisation** case-study template. Its original five visualisation topics cover technology workforce diversity, pay gaps and climate change. This version also includes waste, CO₂, study-score, internet-use, student-skill, heart-rate and device-use charts, together with a searchable gallery and additional interactions. The original scaffold and datasets are part of the course material.
 
-Built with [p5.js](https://p5js.org/). Existing bundled library notices and source data files have been retained. No repository-wide license has been added.
+Built with [p5.js](https://p5js.org/). Library notices and the original dataset files are included.
 
 ## Scope
 

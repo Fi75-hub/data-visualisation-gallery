@@ -64,6 +64,9 @@ function mouseMoved() {
 
 // Keyboard navigation
 function keyPressed() {
+  // Leave text entry, selectors and slider keys to the focused control.
+  var focused = document.activeElement;
+  if (focused && (focused.matches('input, textarea, select') || focused.isContentEditable)) return;
   try {
     if (!gallery) return;
     if (keyCode === LEFT_ARROW) {
